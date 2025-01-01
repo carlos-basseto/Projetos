@@ -3,6 +3,7 @@
 :root{
     --verde-principal: rgb(31,168, 79);
     --color-font: rgb(64,71,66);
+    --cinza: rgb(239,240,239);
 }
 
 *{
@@ -53,7 +54,7 @@ header{
 }
 
 .home-conteudo{
-    
+    width: 40%;
     margin-left: 100px;
     margin-top: 100px;
 }
@@ -104,4 +105,62 @@ h1{
     color: var(--color-font);
     margin:10px ;
     
+}
+
+.imagem-home{
+    width: 50%;
+}
+
+.home-img{
+    width: 100%;
+}
+
+.container-home{
+    height: 100vh;
+}
+
+.servicos-container{
+    height: 100vh;
+}
+
+.titulo-servicos-cont{
+    margin-top: 100px;
+    margin-left:50px;
+}
+
+.titulo-servicos-cont p{
+    color: var(--verde-principal);
+    font-weight: bold;
+}
+
+h2{
+    font-size: var(--color-font);
+    font-size: 32px;
+    margin-top:8px;
+}
+
+.container-card{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 55px;
+}
+
+.card-servicos{
+    width: 30%;
+    height: 400px;
+    background: var(--cinza);
+    margin-left: 2%;
+}
+
+.svg-servicos{
+    width: 80px;
+    margin: 25px;
+    fill: var(--verde-principal);
+}
+
+.titulo-card{
+    font-size: 31px;
+    margin: 25px;
+    font-weight: bold;
+    color: var(--color-font);
 }
