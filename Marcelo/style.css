@@ -120,7 +120,7 @@ h1{
 }
 
 .servicos-container{
-    height: 100vh;
+    height: 135vh;
 }
 
 .titulo-servicos-cont{
@@ -228,4 +228,51 @@ h2{
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+.titulo-sobre{
+    color: var(--verde-principal);
+    font-weight: bold;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+.sobre-container{
+
+    display: flex;
+}
+
+h3{
+    font-size: 30px;
+    color-interpolation-filters: var(--color-font);
+    margin-left: 50px;
+}
+
+.descricao-sobre{
+    margin-left: 50px;
+    margin-top: 20px;
+    color: var(--color-font);
+    font-size: 16px;
+}
+
+.img-about{
+    width: 70%;
+    margin-left: 150px;
+}
+
+.portifolio{
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: var(--verde-principal);
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-left: 40px;
+  margin-top: 20px;
+}
+
+.titulo-sobre-cont{
+    margin-left: 30px;
 }
