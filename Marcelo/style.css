@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --verde-principal: rgb(31,168, 79);
+    --color-font: rgb(64,71,66);
+}
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+
+.div-log img{
+    width: 120px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-log, .navegacao, .div-simulador{
+    margin: 20px;
+}
+
+.item-nav{
+    text-decoration: none;
+    color: var(--verde-principal);
+    font-size: 18px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.item-nav:hover{
+    color:  rgb(25, 216, 92);
+}
+
+.simulacao{
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: var(--verde-principal);
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.simulacao:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.home-conteudo{
+    
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.card-rede{
+    margin: 10px;
+    background: #ebeaea;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+   border-radius: 8px;
+   cursor: pointer;
+}
+
+.teste{
+    display: flex;
+}
+
+.svg-rede{
+    width: 23px;
+    margin-top: 4px;
+}
+
+.card-rede:hover .svg-rede{
+    fill: white;
+}
+
+.card-rede:hover{
+    background-color: var(--verde-principal);
+}
+
+.verde{
+    color: var(--verde-principal);
+}
+
+.container{
+    display: flex;
+}
+
+h1{
+    font-size: 50px;
+    color: var(--color-font);
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.desc-home{
+    color: var(--color-font);
+    margin:10px ;
+    
+}
